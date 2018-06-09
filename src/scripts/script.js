@@ -67,7 +67,7 @@ $(function() {
     );
   });
 
-  $.get(resumeUrl, data => {
+  $.getJSON(resumeUrl, data => {
     setInterval(() => {
       clearInterval(loadingInterval); // declared in index.html
       $('#loader').css('display', 'none');
@@ -77,7 +77,7 @@ $(function() {
     /**** WOW-ANIMATE ****/
     new WOW().init();
 
-    let resume = data[0];
+    let resume = data.resume[0];
     console.log(resume);
 
     // Calculate experience

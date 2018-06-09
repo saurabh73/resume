@@ -3,9 +3,9 @@
 		{
 			"name": "Saurabh Dutta",
 			"title": "Full Stack Developer",
-			"aboutMe": "Hello! I’m Saurabh Dutta. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.",
+			"aboutMe": "I'm a full-stack developer certified in Cloud Technologies (AWS/IBM Bluemix) has over 3 years of experience, and graduated from the University of Allahabad as a Computer Engineer. I have passion for development, designing, solving problems, learn new skills and contribute to projects with best of my abilities.",
 			"displayImage": "http://res.cloudinary.com/dren4jgbp/image/upload/v1524189361/potrait_iilcay.png",
-			"resumeLink": "http://example.com",
+			"resumeLink": "./assets/saurabh-dutta-resume.pdf",
 			"certifications": [
 				{
 					"title": "AWS Developer Associate",
@@ -34,19 +34,19 @@
 					"icon": "fa fa-github"
 				},
 				{
+					"name": "Free Code Camp",
+					"link": "https://www.freecodecamp.org/saurabh73",
+					"icon": "fa fa-free-code-camp"
+				},
+				{
 					"name": "Linkedin",
-					"link": "https://github.com/saurabh73/",
+					"link": "https://www.linkedin.com/in/saurabh-dutta",
 					"icon": "fa fa-linkedin"
 				},
 				{
 					"name": "Facebook",
-					"link": "https://github.com/saurabh73/",
+					"link": "https://www.facebook.com/saurabhdutta6273",
 					"icon": "fa fa-facebook"
-				},
-				{
-					"name": "Twitter",
-					"link": "https://github.com/saurabh73/",
-					"icon": "fa fa-twitter"
 				}
 			],
 			"email": "saurabhdutta.jk@gmail.com",
@@ -69,7 +69,7 @@
 					"percent": 70
 				},
 				{
-					"name": "Cloud Technology (AWS/Bluemix/Firebase)",
+					"name": "Cloud Technology (AWS/Bluemix)",
 					"percent": 60
 				}
 			],
@@ -122,10 +122,10 @@
 			"experience": [
 				{
 					"duration": "Jan 2016-Current",
-					"company": "Wipro Digital",
+					"company": "Wipro Technologies",
 					"position": "Technologist",
 					"companyImage": "http://saurabh73.github.io/resume/assets/img/wd_logo.png",
-					"description": "Working as a Technlogist in an innovation-led, digital transformation partner built for today’s digital challenges. My current project is for Capital One, which includes working on their RTM framework to build RESTful API's. Some of the API I worked on are Statemement Reprint, Statement Details & Partnership Authorization. Technologies/framework used are Java, Spring framework and JUnit for unit testing."
+					"description": "Working as a Technologist in an innovation-led, digital transformation partner built for today’s digital challenges. My current project is for Capital One, which includes working on their RTM framework to build RESTful API's. Some of the API I worked on are Statemement Reprint, Statement Details & Partnership Authorization. Technologies/framework used are Java, Spring framework and JUnit for unit testing."
 
 				},
 				{
