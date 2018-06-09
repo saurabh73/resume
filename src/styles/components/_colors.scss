@@ -1,0 +1,206 @@
+@import "variables";
+
+/**** LIGHT ****/
+
+.loading-overlay,
+.section-about,
+.section-skills .professional-skills,
+.section-skills .additional-skills,
+.section-education .education-content,
+.section-experience .icon-experience,
+.section-experience .experience-content,
+.section-pricing .pricing-content,
+.section-testimonials .swiper-slide,
+.section-blog .blog-content,
+.section-contact-us .form-content,
+.section-contact-us .info-content,
+.section-portfolio .filter-portfolio li:hover,
+.scroll-top,
+.theme-option,
+.theme-option .open-theme,
+.more-blog .pagination-blog a {
+	background-color: $bg-white;
+}
+
+.content {
+	background-color: $bg-light;
+	color: $color-dark;
+}
+
+.section-about .download-resume,
+.section-about .text-available,
+.section-about h3,
+.section-about .title-info,
+.section-about .title-links,
+.section-about .li-social-links a,
+.section-skills,
+.section-skills .title-progress span,
+.section-education .ul-education,
+.section-experience .icon-experience,
+.section-experience .company-name,
+.section-portfolio .filter-portfolio li,
+.section-pricing .pricing-title h3,
+.section-pricing .pricing-detail .line-detail,
+.section-testimonials .personal-info span,
+.section-blog h4,
+.scroll-top,
+.theme-option .open-theme,
+.more-blog .pagination-blog a,
+.single-blog blockquote,
+.single-blog .archive li {
+	color: $color-muted;
+}
+
+.section-about h2 span,
+.theme-option .open-theme:hover {
+	color: $color-dark;
+}
+
+.section-about .li-social-links a:hover,
+.section-skills h3,
+.section-education h3,
+.section-experience .period-experience,
+.section-portfolio .filter-portfolio li.active,
+.section-portfolio .item-overlay,
+.section-pricing .most-populaire span,
+.section-pricing .pricing-price,
+.section-pricing .line-detail .new,
+.section-pricing .pricing-buy h3,
+.section-testimonials p,
+.section-interests h4,
+.section-blog .read-more,
+.section-blog .load-more span,
+.section-contact-us .info-icon,
+.section-contact-us .info-text,
+.section-contact-us .social-links li,
+.menu,
+.section-contact-us input[type="submit"],
+.more-blog .pagination-blog a.active,
+.more-blog .pagination-blog a:hover,
+.single-blog .comments .reply,
+.single-blog .leave-comment input[type="submit"],
+.single-blog .tags li a {
+	color: $bg-white;
+}
+
+.section-skills .progress,
+.section-pricing div[class^="col-"]:nth-child(1) .pricing-price,
+.section-pricing div[class^="col-"]:nth-child(3) .pricing-price,
+.section-pricing div[class^="col-"]:nth-child(1) .pricing-buy,
+.section-pricing div[class^="col-"]:nth-child(3) .pricing-buy,
+.section-blog .read-more:hover,
+.section-blog .load-more span,
+.section-contact-us input[type="submit"]:hover,
+.section-contact-us .info-text,
+.single-blog .line,
+.single-blog .leave-comment input[type="submit"]:hover,
+.single-blog .tags li a:hover {
+	background-color: $color-muted;
+}
+
+.section-about .li-social-links a {
+	border: 1px solid $color-muted;
+}
+
+.section-experience .all-experience {
+	border-left: 5px solid $bg-white;
+}
+
+.section-contact-us input,
+.section-contact-us textarea,
+.single-blog .leave-comment input,
+.single-blog .leave-comment textarea {
+	border-bottom: 1px solid #cacaca;
+	color: #202020;
+}
+
+.section-contact-us .info-text::before {
+	border-right-color: $color-muted;
+}
+
+
+
+.theme-option .light span {
+	border: 1px solid $color-dark;
+}
+
+.single-blog blockquote {
+	background-color: $bg-light;
+}
+
+
+.loading-overlay .spinner > div,
+.section-about .li-social-links a:hover,
+.section-skills h3,
+.section-skills .progress-bar,
+.section-education h3,
+.section-experience .experience-content::before,
+.section-experience .period-experience,
+.section-portfolio .filter-portfolio li.active,
+.section-pricing div[class^="col-"]:nth-child(2) .pricing-price,
+.section-pricing div[class^="col-"]:nth-child(2) .pricing-buy,
+.section-testimonials .personal-text,
+.section-testimonials span.swiper-pagination-bullet-active,
+.section-interests .swiper-slide,
+.section-blog .read-more,
+.section-contact-us input[type="submit"],
+.section-contact-us .info-icon,
+.section-contact-us .social-links,
+.menu,
+.menu .open-menu,
+.more-blog .pagination-blog a.active,
+.more-blog .pagination-blog a:hover,
+.single-blog .comments .reply,
+.single-blog .leave-comment input[type="submit"],
+.single-blog .tags li a {
+	background-color: $color-primary;
+}
+
+.section h2,
+.section-about .available i,
+.section-skills .other-skills i,
+.section-experience .specialty-name,
+.section-testimonials h3,
+.section-blog .blog-detail ul,
+.section-contact-us h3,
+.single-blog .comments h3,
+.single-blog .comments .name,
+.single-blog .load-more-comments h3,
+.single-blog .leave-comment h3,
+.single-blog .populaire-posts h3,
+.single-blog .tags h3,
+.single-blog .archive h3 {
+	color: $color-primary;
+}
+
+.section-about .li-social-links a:hover {
+	border-color: $color-primary;
+	box-shadow: 0 0 3px $color-primary;
+}
+
+.section-education {
+	h3 {
+		&:before {
+			border-top-color: $color-primary !important;
+			border-right-color:$color-primary !important;
+		}
+	}
+	
+}
+
+.section-contact-us input:focus,
+.section-contact-us textarea:focus,
+.single-blog .leave-comment input:focus,
+.single-blog .leave-comment textarea:focus {
+	border-bottom-color: $color-primary;
+}
+
+.theme-option,
+.theme-option .open-theme {
+	border: 2px solid $color-primary;
+	border-right: none;
+}
+
+.single-blog blockquote {
+	border-left: 6px solid $color-primary;
+}

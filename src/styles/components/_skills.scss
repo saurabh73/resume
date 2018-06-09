@@ -1,0 +1,69 @@
+/****  5-2 - SKILLS ****/
+
+.section-skills {
+    .h2-section {
+        margin-bottom: 88px;
+    }
+    .professional-skills, .additional-skills {
+        padding: 0 30px 30px;
+    }
+
+    .additional-skills {
+        padding-top: 2px;
+    }
+    
+    .title-skills {
+        text-align: center;
+    }
+
+    h3 {
+        display: inline-block;
+        position: relative;
+        top: -32px;
+        padding: 18px 28px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+    }
+
+    .skill-value {
+        position: absolute;
+        right: 45px;
+    }
+
+    .progress {
+        height: 14px;
+        margin-bottom: 13px;
+        border-radius: 0px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    }
+    .progress-bar {
+        height: 14px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    }
+   
+
+    .circle {
+        text-align: center;
+    }
+
+    .chart-percentage {
+        position: absolute;
+        width: 100%;
+        top: 45px;
+        left: 0;
+        font-weight: bold;
+    }
+    
+    .chart canvas {
+        width: 114px;
+        height: 114px;
+    }
+
+    .skill {
+        padding-bottom: 7px;
+    }
+
+    .other-skills i {
+        margin-right: 5px;
+    }
+   
+}

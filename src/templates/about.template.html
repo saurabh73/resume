@@ -1,0 +1,43 @@
+<h2 class="text-uppercase">
+    <span>HI I'M</span> {{:name}}</h2>
+<h3>{{:title}}</h3>
+<p>{{:aboutMe}}</p>
+
+<div class="col-12">
+    <ul class="ul-info row">
+        {{props summary}}
+        <li class="li-info col-sm-6 px-0">
+            <span class="title-info text-capitalize">{{>key}}</span>
+            <span class="info">{{>prop}}</span>
+        </li>
+        {{/props}}
+    </ul>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <span class="title-links">Certifications</span>
+        <div style="margin-bottom: 2px;" class="row px-2 py-1">
+            {{for certifications}}
+                <a href="{{:verificationLink}}" target="blank" class="d-inline-block h-100" 
+                data-tootik="{{:title}}" data-tootik-conf="square">
+                    <img src="{{:badge}}" alt="{{:title}}" class="pl-1 pr-2" height="80px" >
+                </a>
+            {{/for}}
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <span class="title-links">Social Links</span>
+        <ul class="ul-social-links">
+            {{for socialLinks}}
+                <li class="li-social-links">
+                    <a href="{{:link}}" data-tootik="{{:name}}" data-tootik-conf="square" target="blank">
+                        <i class="{{:icon}}" aria-hidden="true"></i>
+                    </a>
+                </li>
+            {{/for}}
+        </ul>
+    </div>
+</div>

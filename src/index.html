@@ -1,12 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Saurabh Dutta - Resume</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Webpack Starter for basic frontend stack">
+	<meta name="author" content="Saurabh Dutta">
+	<link rel="stylesheet" href="https://unpkg.com/tootik@1.0.2/css/tootik.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+	 crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://rawgit.com/loadingio/loading-bar/master/dist/loading-bar.css">
+	<title>Saurabh Dutta - Resume</title>
 </head>
+
 <body>
-  
+	<div id="loader" style="position:fixed;top:0;bottom:0;left:0;right:0">
+		<div class="d-flex h-100 w-100 justify-content-center align-items-center">
+			<div class="ld-bar ldBar" data-fill-dir="ltr" data-fill-background-extrude="0.9" style="width:100%" data-preset="text"></div>
+		</div>
+	</div>
+
+	<div class="content">
+		<!-- #MENU# -->
+		<div class="menu">
+			<h2 class="logo">SD</h2>
+			<div class="menu-content">
+				<ul>
+					<li>
+						<a href="#" data-value="about" class="active">ABOUT</a>
+					</li>
+					<li>
+						<a href="#" data-value="skills">SKILLS</a>
+					</li>
+					<li>
+						<a href="#" data-value="education">EDUCATION</a>
+					</li>
+					<li>
+						<a href="#" data-value="experience">EXPERIENCE</a>
+					</li>
+					<!-- <li>
+						<a href="#" data-value="portfolio">PORTFOLIO</a>
+					</li> -->
+				</ul>
+			</div>
+			<div class="open-menu">
+				<i class="fa fa-bars"></i>
+			</div>
+		</div>
+
+		<!-- #SCROLL-TOP# -->
+		<div class="scroll-top" data-tootik="TOP" data-tootik-conf="invert no-arrow no-fading">
+			<i class="fa fa-arrow-up"></i>
+		</div>
+
+		<div class="container">
+			<!-- #ABOUT# -->
+			<section id="about" class="section section-about wow fadeIn">
+				<div class="profile">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="photo-profile">
+								<img id="display-image" src="http://via.placeholder.com/300x400?text=Saurabh%20Dutta" alt="Display Image">
+							</div>
+							<a href="#" target="_blank">
+								<div class="download-resume">
+									<i class="fa fa-cloud-download" aria-hidden="true"></i>
+									<span class="text-download">DOWNLOAD RESUME</span>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-8">
+							<!-- Insert About template html  -->
+							<div id="profile-info" class="info-profile">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- #SKILLS# -->
+			<section id="skills" class="section section-skills wow fadeInUp" data-wow-offset="100">
+
+			</section>
+
+			<!-- #EDUCATION# -->
+			<section id="education" class="section section-education wow fadeInUp" data-wow-offset="40">
+
+
+			</section>
+
+			<!-- #EXPERIENCE# -->
+			<section id="experience" class="section section-experience wow fadeInUp" data-wow-offset="40">
+				<div class="header-section">
+					<h2 class="h2-section">EXPERIENCE</h2>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-10">
+						<div class="all-experience">
+							<!-- single experience -->
+							<div class="experience-content">
+								<span class="period-experience">Jan 2015 - Current</span>
+								<h3 class="specialty-name">Wordpress Developer</h3>
+								<h3 class="company-name">GOGLE</h3>
+								<p class="prg-experience">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper lacus tortor, quis bibendum odio mattis vitae.
+									Cras porta massa pretium auctor congue. Suspendisse ante massa, euismod sit amet sem sed, viverra tristique diam.</p>
+							</div>
+							<!-- / single experience -->
+							<!-- single experience -->
+							<div class="experience-content">
+								<span class="period-experience">May 2013 - Aug 2014</span>
+								<h3 class="specialty-name">Software Engineer</h3>
+								<h3 class="company-name">FACBOOK</h3>
+								<p class="prg-experience">Curabitur eleifend purus eu efficitur feugiat. Fusce quis libero sit amet urna mattis semper. Fusce ornare tristique
+									scelerisque. Nunc ac cursus nibh. Maecenas lobortis nulla a nunc molestie, at volutpat sapien congue. Sed vehicula
+									nec libero vel blandit. Praesent scelerisque sodales porttitor.</p>
+							</div>
+							<!-- / single experience -->
+							<!-- single experience -->
+							<div class="experience-content">
+								<span class="period-experience">Sep 2010 - Mar 2012</span>
+								<h3 class="specialty-name">Systems Analyst</h3>
+								<h3 class="company-name">YOTUBE</h3>
+								<p class="prg-experience">Quisque convallis justo tellus, ut consequat ante sagittis sed. Suspendisse tincidunt, justo sed dignissim viverra,
+									lacus sem blandit nunc, ac molestie metus turpis mattis erat. Curabitur ac malesuada mauris, id gravida nisi.</p>
+							</div>
+							<!-- / single experience -->
+							<!-- single experience -->
+							<div class="experience-content">
+								<span class="period-experience">Oct 2008 - Apr 2010</span>
+								<h3 class="specialty-name">Full Stack Developer</h3>
+								<h3 class="company-name">TWITTR</h3>
+								<p class="prg-experience">Aliquam at sapien pretium, iaculis tortor id, euismod turpis. Nulla ante eros, semper a quam ut, dignissim scelerisque
+									eros. Vestibulum congue a elit ut dignissim. Duis vel erat sed massa porta tincidunt at at lectus. Sed mattis commodo
+									vestibulum. Integer bibendum eget tortor nec faucibus.</p>
+							</div>
+							<!-- / single experience -->
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- #PORTFOLIO# -->
+
+			<!-- <section id="portfolio" class="section section-portfolio wow fadeInUp" data-wow-offset="40">
+
+			</section> -->
+
+
+		</div>
+	</div>
+	<!-- Loading Script -->
+	<script src="https://rawgit.com/saurabh73/8d40423c6de3a0780694a79b6d144c66/raw/4bfafda1a2fa2b2531cb6d6e8fcf8ff8d5f077a4/loader.js"></script>
+	<script>
+		var bar1 = new ldBar(".ld-bar", {
+			"fill-dir": "ltr"
+		});
+		var count = 0;
+		bar1.set(count);
+		var loadingInterval = setInterval(function () {
+
+			if (count === 0) {
+				count = 100;
+				bar1.setConfig("fill-dir", "ltr");
+			} else {
+				count = 0;
+				bar1.setConfig("fill-dir", "rtl");
+			}
+			bar1.set(count);
+		}, 1500);
+
+	</script>
+	<!-- Main Dependices -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
 </body>
+
 </html>

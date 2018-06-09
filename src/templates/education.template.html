@@ -1,0 +1,41 @@
+<div class="header-section">
+    <h2 class="h2-section">EDUCATION</h2>
+</div>
+<div class="row">
+    <!-- single education -->
+    {{for education}}
+    <div class="col-sm-4">
+        <div class="education-content h-100 mb-0">
+            <div class="period">
+                <h3>{{>duration}}</h3>
+            </div>
+            <ul class="ul-education">
+                <li class="li-specialty">
+                    <div class="specialty">
+                        <span class="education-icon">
+                            <i class="fa fa-file-text"></i>
+                        </span>
+                        <span class="specialty-name">{{>course}}</span>
+                    </div>
+                </li>
+                <li class="li-university">
+                    <div class="university">
+                        <span class="education-icon">
+                            <i class="fa fa-university"></i>
+                        </span>
+                        <span class="university-name">{{>institute}}</span>
+                    </div>
+                </li>
+                <li class="li-university">
+                        <div class="university">
+                            <span class="education-icon">
+                                <i class="fa fa-percent"></i>
+                            </span>
+                            <span class="university-name">{{>percent}}</span>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    {{/for}}
+</div>

@@ -1,0 +1,42 @@
+/****  5-3 - EDUCATION ****/
+
+.section-education {
+    margin-bottom: 45px;
+    .education-content {
+        margin-bottom: 30px;
+        padding: 30px;
+    }
+    h3 {
+        margin-bottom: 18px;
+        display: inline-block;
+        padding: 15px 45px;
+        min-height: 50px;
+        position: relative;
+        left: -45px;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, .4);
+        &:before {
+            content: '';
+            position: absolute;
+            top: 52px;
+            left: 0px;
+            border-width: 5px 7px;
+            border-style: solid;
+            border-color: transparent;
+            transition: all .6s;
+        }
+    }
+}
+
+
+.section-education .ul-education {
+    margin-bottom: 12px;
+}
+
+.section-education .li-specialty {
+    margin-bottom: 5px;
+}
+
+.section-education .education-icon {
+    display: inline-block;
+    width: 23px;
+}

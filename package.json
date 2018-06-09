@@ -1,24 +1,25 @@
 {
   "name": "resume",
   "version": "2.0.0",
-  "description": "Resume project of Saurabh Dutta",
+  "description": "Resume and portfolio project for Saurabh Dutta",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "npm run lint && cross-env NODE_ENV=production webpack --mode production",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "run:mock": "json-server --watch mock-resume.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/saurabh73/resume.git"
+    "url": "git+https://github.com/saurabh73/resume.git"
   },
   "keywords": [
     "resume",
-    "saurabh-dutta",
+    "portfolio",
+    "saurabh dutta",
     "saurabh",
-    "saurabh73",
-    "portfolio"
+    "saurabh73"
   ],
   "author": "Saurabh Dutta (saurabh73)",
   "license": "ISC",
@@ -41,6 +42,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
+    "html-webpack-harddisk-plugin": "^0.2.0",
     "html-webpack-plugin": "^3.1.0",
     "node-sass": "^4.8.3",
     "prettier": "^1.11.1",
@@ -54,8 +56,13 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "date-fns": "^1.29.0",
+    "easy-pie-chart": "^2.1.7",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "jquery.scrollto": "^2.1.2",
+    "jsrender": "^0.9.90",
+    "lodash": "^4.17.10",
     "popper.js": "^1.14.1"
   }
 }

@@ -1,10 +1,47 @@
-@import 'components/theme';
+@import 'components/functions';
+@import 'components/mixins';
 @import 'components/fonts';
+@import 'components/theme';
+@import 'components/menu';
+@import 'components/about';
+@import 'components/skills';
+@import 'components/education';
+@import 'components/experience';
+@import 'components/portfolio';
+
+
+@import 'components/responsive';
 
 body {
-  background-color: $color-bg;
+  font-family: 'Oswald', sans-serif;
 }
 
-.font-akkrut {
-  font-family: "AkkuratStd";
+.scroll-top {
+  // display: none;
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  right: 45px;
+  bottom: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  opacity: .7;
+  cursor: pointer;
+  z-index: 10;
+  transition: all .3s;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.ldBar-label {
+  display: none;
+}
+.ldBar{
+  height: 150px !important;
 }

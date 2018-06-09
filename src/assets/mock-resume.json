@@ -1,0 +1,149 @@
+{
+	"resume": [
+		{
+			"name": "Saurabh Dutta",
+			"title": "Full Stack Developer",
+			"aboutMe": "Hello! I’m Saurabh Dutta. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.",
+			"displayImage": "http://res.cloudinary.com/dren4jgbp/image/upload/v1524189361/potrait_iilcay.png",
+			"resumeLink": "http://example.com",
+			"certifications": [
+				{
+					"title": "AWS Developer Associate",
+					"validUpto": "",
+					"verificationLink": "",
+					"badge": "http://res.cloudinary.com/dren4jgbp/image/upload/v1524751147/portfolio/aws.png"
+				},
+				{
+					"title": "IBM Bluemix Application Developer",
+					"validUpto": "",
+					"verificationLink": "",
+					"badge": "http://res.cloudinary.com/dren4jgbp/image/upload/v1524751147/portfolio/bluemix.png"
+				},
+				{
+					"title": "CodeChef Certified DS (CCDSAP Foundation)",
+					"validUpto": "",
+					"verificationLink": "https://www.codechef.com/certificates/verify",
+					"badge": "http://res.cloudinary.com/dren4jgbp/image/upload/v1524751147/portfolio/ccdsap.png"
+				}
+			],
+			"experienceStart": "2014-10-07T00:00:00",
+			"socialLinks": [
+				{
+					"name": "Github",
+					"link": "https://github.com/saurabh73/",
+					"icon": "fa fa-github"
+				},
+				{
+					"name": "Linkedin",
+					"link": "https://github.com/saurabh73/",
+					"icon": "fa fa-linkedin"
+				},
+				{
+					"name": "Facebook",
+					"link": "https://github.com/saurabh73/",
+					"icon": "fa fa-facebook"
+				},
+				{
+					"name": "Twitter",
+					"link": "https://github.com/saurabh73/",
+					"icon": "fa fa-twitter"
+				}
+			],
+			"email": "saurabhdutta.jk@gmail.com",
+			"phone": "+91-9650897823",
+			"technologies": [
+				{
+					"name": "Core Java",
+					"percent": 75
+				},
+				{
+					"name": "Node.js",
+					"percent": 80
+				},
+				{
+					"name": "HTML/CSS/Javascript",
+					"percent": 90
+				},
+				{
+					"name": "SQL/NoSQL",
+					"percent": 70
+				},
+				{
+					"name": "Cloud Technology (AWS/Bluemix/Firebase)",
+					"percent": 60
+				}
+			],
+			"frameworks": [
+				{
+					"name": "Spring Core/Web",
+					"percent": 70
+				},
+				{
+					"name": "Hibernate/JPA",
+					"percent": 65
+				},
+				{
+					"name": "Express/Loopback",
+					"percent": 70
+				},
+				{
+					"name": "Angular",
+					"percent": 85
+				},
+				{
+					"name": "Ionic Framework",
+					"percent": 80
+				},
+				{
+					"name": "Elastic Search",
+					"percent": 50
+				}
+			],
+			"education": [
+				{
+					"duration": "2007",
+					"institute": "Kendriya Vidhyalaya No.3, CBSE",
+					"course": "High School",
+					"percent" : "89.60 %"
+				},
+				{
+					"duration": "2009",
+					"institute": "Kendriya Vidhyalaya No.3, CBSE",
+					"course": "Intermediate",
+					"percent" : "86.60 %"
+				},
+				{
+					"duration": "2010-2014",
+					"institute": "J.K. Institute of Applied Physics & Technology, A.U.",
+					"course": "B.Tech CSE",
+					"percent" : "76.96 % with Distinction"
+				}
+			],
+			"experience": [
+				{
+					"duration": "Jan 2016-Current",
+					"company": "Wipro Digital",
+					"position": "Technologist",
+					"companyImage": "http://saurabh73.github.io/resume/assets/img/wd_logo.png",
+					"description": "Working as a Technlogist in an innovation-led, digital transformation partner built for today’s digital challenges. My current project is for Capital One, which includes working on their RTM framework to build RESTful API's. Some of the API I worked on are Statemement Reprint, Statement Details & Partnership Authorization. Technologies/framework used are Java, Spring framework and JUnit for unit testing."
+
+				},
+				{
+					"duration": "Oct 2014-Dec 2015",
+					"company": "Infogain India Pvt. Ltd.",
+					"position": "Software Engineer",
+					"companyImage": "http://saurabh73.github.io/resume/assets/img/infogain_logo.png",
+					"description": "Worked as Software Engineer, and got hands on experience on various technologies credits to extensive Instructor led training program of Infogain. Worked for NCR Corporation for my project engagement on their product called VISION, which is used to monitor & administer ATM machines for their various Banking clients. Project included development of RESTful api's, defect fixing for VISION SaaS platform and development on latest version of their product."
+
+				},
+				{
+					"duration": "May 2013-July 2013",
+					"company": "Wipro Technologies",
+					"position": "Intern",
+					"companyImage": "http://saurabh73.github.io/resume/assets/img/wipro_logo.png",
+					"description": "Learned about Payments Methods and SWIFT Standards (MT101 and Pain.001.001.05) and developed a parser for the same. This Internship helped me to gain knowledge about Software Development Cycle and XML technologies and enhanced my Java skills."
+				}
+			]
+		}
+	]
+}
