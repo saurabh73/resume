@@ -124,7 +124,7 @@
 					"duration": "Jan 2016-Current",
 					"company": "Wipro Technologies",
 					"position": "Technologist",
-					"companyImage": "http://saurabh73.github.io/resume/assets/img/wd_logo.png",
+					"companyImage": "http://res.cloudinary.com/dren4jgbp/image/upload/v1528745022/resume/wd_logo.png",
 					"description": "Working as a Technologist in an innovation-led, digital transformation partner built for today’s digital challenges. My current project is for Capital One, which includes working on their RTM framework to build RESTful API's. Some of the API I worked on are Statemement Reprint, Statement Details & Partnership Authorization. Technologies/framework used are Java, Spring framework and JUnit for unit testing."
 
 				},
@@ -132,7 +132,7 @@
 					"duration": "Oct 2014-Dec 2015",
 					"company": "Infogain India Pvt. Ltd.",
 					"position": "Software Engineer",
-					"companyImage": "http://saurabh73.github.io/resume/assets/img/infogain_logo.png",
+					"companyImage": "http://res.cloudinary.com/dren4jgbp/image/upload/v1528745001/resume/infogain_logo.png",
 					"description": "Worked as Software Engineer, and got hands on experience on various technologies credits to extensive Instructor led training program of Infogain. Worked for NCR Corporation for my project engagement on their product called VISION, which is used to monitor & administer ATM machines for their various Banking clients. Project included development of RESTful api's, defect fixing for VISION SaaS platform and development on latest version of their product."
 
 				},
@@ -140,7 +140,7 @@
 					"duration": "May 2013-July 2013",
 					"company": "Wipro Technologies",
 					"position": "Intern",
-					"companyImage": "http://saurabh73.github.io/resume/assets/img/wipro_logo.png",
+					"companyImage": "http://res.cloudinary.com/dren4jgbp/image/upload/v1528745028/resume/wipro_logo.png",
 					"description": "Learned about Payments Methods and SWIFT Standards (MT101 and Pain.001.001.05) and developed a parser for the same. This Internship helped me to gain knowledge about Software Development Cycle and XML technologies and enhanced my Java skills."
 				}
 			]
